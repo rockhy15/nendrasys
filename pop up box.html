@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop up box</title>
+    <script src="pop up box.js"></script>
+</head>
+<body onload="alteringUser()">
+    <h2>Applicatio form</h2>
+    <form>
+        <table>
+            <tr><td>
+                Enter Name</td><td><input></input> </td></tr>
+                <tr><td>
+                    Enter course</td><td><input></input> </td></tr>
+                    <tr><td>
+                        Enter address</td><td><input></input> </td></tr>
+        </table>
+        <input type="submit" value="Register"></input>
+        <input type="Reset" value="Cancel"></input>
+        <br></br>
+        <table>
+            <tr><td>
+                Enter Username</td><td><input id="user"></input> </td></tr>
+                <tr><td>
+                    Enter Password</td><td><input id="pwd"></input> </td></tr>
+        </table>
+         <input type="submit" value="Register" onclick="verifyUsername()"></input>
+         <br></br><br></br>
+         <table>
+            <tr><td>
+                mobile</td><td><input id="mob"></input>
+            </td></tr>
+           
+         </table>
+         <input type="button" value="otp" onclick="otp()"></input>
+    </form>
+    
+</body>
+</html>
