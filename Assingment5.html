@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script   src="assignment5.js"></script>
+    <title>Document</title>
+    
+</head>
+<body ng-app="check" ng-controller="ourController">
+    <div>
+        
+            <form method="post">
+                <table>
+          <tr><td> Name:<input type="text" ng-model="name" placeholder="enter name"><h4 class="msg">{{msg}}</h4><br></td>
+          <tr><td> Surname:<input type="text" ng-model="Surname" placeholder="enter Surname"><h4 class="msg">{{msgs}}</h4><br></br></td></tr>
+         <tr> <td> Email:<input type="text" ng-model="email" placeholder="enter your email"><h4 class="msg">{{mails}}</h4><br></br> </td></tr>
+          <tr><td> Password:<input type="password" ng-model="password"><h4 class="msg">{{message}}</h4><br></td>
+         <tr> <td>phonenumber:<input type="text" ng-model="number" ><h4 class="msg">{{no}}</h4><br></br></td>  
+          <tr> <td>  <button type="submit" ng-click="check()">click here</button></td>
+           </tr>
+           </table>
+            </form>
+        
+    </div>
+    
+</body>
+</html>

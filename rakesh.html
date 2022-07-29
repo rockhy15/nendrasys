@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>Username</label>
+    <input pattern="[A-z]{3,100}"title="in-valid request"></input><br></br>
+</form>
+<form>
+    <label>Surname</label>
+    <input pattern="[A-z]{3,100}"title="in-valid request"></input>
+    </form>
+    <form>
+        <label>enter your email</label>
+    <input type="email"></input>
+    </form>
+    <form>
+        <label>contact</label>
+    <input pattern="[+]{1}[0-9]{10}" title="in-valid request"></input>
+    </form>
+    <form>
+        <label>password</label>
+    <input type="password" pattern="[A-z]{8}[@ # &]{1}" title="it contain 8char and one special char"></input>
+    </form>
+    <input type="button" value="register" style="background-color: blue;color:white;"></input>
+</body>
+</html>
