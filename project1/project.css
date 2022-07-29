@@ -1,0 +1,32 @@
+.container
+{
+    font-family: sans-serif;
+}
+
+
+input
+{
+    display:block;
+    width:95%;
+    line-height:28.4px;
+    margin:10px;
+    padding-left:20px;
+    font-size:15px;
+
+
+}
+.btn-default{
+    
+    width:13%;
+     line-height : 1 rem;
+ margin-left: 10px;
+
+}
+
+.message{
+    font-size: 1.3em;
+      font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
